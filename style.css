@@ -36,7 +36,7 @@ html {
 	transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
 	position: relative;
 } .circle-background {
-	background-image: url(image/circle.png);
+	background-image: url(about2/image/circle.png);
 	height: 100%;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -47,8 +47,7 @@ html {
 	left: 0;
 	position: absolute;
 } .columns-container {
-	min-height: 100vh;
-	max-width: 1140px;
+	max-width: 1200px;
 	align-items: center;
 	display: flex;
 	margin-right: auto;
@@ -179,7 +178,7 @@ html {
 	position: relative;
 } .about-main-container {
 	min-height:90vh;
-	max-width:1140px;
+	max-width:1200px;
 	align-items:center;
 	display:flex;
 	margin-right:auto;
@@ -279,7 +278,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 } .skill-exp-element-1, .skill-exp-element-7 {
 	position: relative;
 } .main-skill-exp-container {
-	max-width: 1140px;
+	max-width: 1200px;
 	display: flex;
 	margin-right: auto;
 	margin-left: auto;
@@ -462,6 +461,12 @@ h1, h2, h3, h4, h5, h6, ul, p {
 }
 
 
+.my-image-container {
+	margin: -15px 0px 0px -50px;
+} .columns-container {
+	min-height: 0;
+}
+
 
 /*DARK THEME*/
 
@@ -486,6 +491,13 @@ body {
 	border-top: 1px solid #acacac;
 }
 
+@media (min-width: 1024px) and (max-width: 1250px) {
+	.columns-container, .about-main-container, .main-skill-exp-container {
+		margin: 0 40px;
+	} .circle-background {
+		background-size: 650px;
+	}
+}
 
 @media (max-width: 1024px) {
 	.circle-background {
@@ -494,7 +506,7 @@ body {
 	  .about-main-selection-class {
 		padding: 0 25px;
 	} .columns-container {
-		min-height: 80vh;
+		/*min-height: 80vh;*/
 		flex-wrap: wrap;
 		max-width: 1024px;
 	} .my-image-container {
@@ -502,7 +514,7 @@ body {
 	} .seperate-sub-heading-2 {
 		padding: 0 0 65px;
 	} .top-main-container {
-		top: -120px;
+		/*top: -120px;*/
 	} .about-main-container {
 		max-width: 1024px;
 	} .sub-about-column-wrapper,
@@ -556,7 +568,7 @@ body {
 	} .main-selection-class {
 		padding: 0 20px 60px;
 	} .columns-container {
-		min-height: 767px;
+		/*min-height: 767px;*/
 		max-width: 767px;
 	} .common-column {
 		order: 10;
