@@ -36,7 +36,7 @@ html {
 	transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
 	position: relative;
 } .circle-background {
-	background-image: url(about2/image/circle.png);
+	background-image: url(image/circle.png);
 	height: 100%;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -116,7 +116,6 @@ html {
 	position: relative;
 	list-style-type: none;
 } #my-image {
-	opacity: 0; /*##################################  REMOVE THIS WHEN YOU ADD ORIGINAL IMAGE ########################*/
 	border-radius: 500px 500px 500px 500px;
 	vertical-align: middle;
 	display: inline-block;
